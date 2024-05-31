@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    * {
+        @apply box-border p-0 m-0 scroll-smooth font-yekan-medium;
+    }
+    body {
+        @apply bg-purple-light;
+    }
+    button {
+        @apply border-none outline-none bg-inherit text-inherit cursor-pointer
+    }
+    a {
+        @apply inline-block bg-inherit text-inherit no-underline;
+    }
+    ul {
+        @apply list-none;
+    }
+    input, select {
+        @apply border-none outline-none bg-inherit text-inherit;
+    }
+    textarea {
+        @apply border-none outline-none bg-inherit text-inherit resize-none;
+    }
+    img {
+        @apply inline;
+    }
+}
